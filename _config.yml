@@ -67,11 +67,11 @@ gitalk:
   #是否开启Gitalk评论
   enable: true
   #生成的clientID
-  clientID: 890af961fb1937f4b124
+  clientID: acc804b8fdaf9e1f0622
   #生成的clientSecret
-  clientSecret: 6b0018eaf4b055082238464296c1907c4c445dc2
+  clientSecret: 6ad5d5bf74f50873743aef290022c63ca696183b
   #仓库名称
-  repo: cyyhh3.github.io
+  repo: Vercel-Blog
   #github用户名
   owner: CYYHH3
   admin: CYYHH3
