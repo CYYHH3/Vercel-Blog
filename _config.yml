@@ -1,0 +1,115 @@
+## 网站设置
+# 标题
+title: CYY's Blog
+# 选项卡标题
+SEOTitle: CYY的博客 | CYY's Blog
+# 首页背景图片
+header-img: img/post-bg-re-vs-ng2.jpg
+# 邮箱设置
+email: ChenYikYan@yeah.net
+# 网站介绍
+description: "I guess it comes down to a simple choice:get busy living or get busy dying."
+# 关键词
+keyword: "Java, Kotlin, Android, Vue.js, Apple, iPhone"
+# 博客访问链接
+url: "https://blog.cyyb.tk"
+# '/blog' if your blog hosted on 'host/blog'
+baseurl: ""
+
+## 侧边栏设置
+# 是否开启侧边栏 true 开始 false 关闭
+sidebar: true
+# 侧边栏描述语句
+sidebar-about-description: "知识就是力量。"
+# 侧边栏头像
+sidebar-avatar: /img/apple-touch-icon.png
+
+## 社交网站设置
+RSS: false
+# 微博 打开个人主页截取用户编号 例如个人主页网址为https://weibo.com/u/5089298519 填写 5089298519
+weibo_username:    
+# 知乎个人页面 填写用户名
+zhihu_username:    cyyh3
+# GitHub个人页面 填写用户名
+github_username:    cyyhh3
+# facebook个人页面 填写用户名
+#facebook_username:    
+# 简书个人页面截取用户编号 与微博同理
+jianshu_username:    
+# twitter个人页面 填写用户名
+#twitter_username:   
+
+## 构建设置
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+## Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+## Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+## 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: superZhoudalu
+
+## Gitalk
+gitalk:
+  #是否开启Gitalk评论
+  enable: true
+  #生成的clientID
+  clientID: 890af961fb1937f4b124
+  #生成的clientSecret
+  clientSecret: 6b0018eaf4b055082238464296c1907c4c445dc2
+  #仓库名称
+  repo: cyyhh3.github.io
+  #github用户名
+  owner: CYYHH3
+  admin: CYYHH3
+  #是否启用类似FB的阴影遮罩
+  distractionFreeMode: true
+
+## 统计
+# Baidu Analytics
+ba_track_id: d1abb6c984be73c9d8e20ebcdb8523f4
+
+# Google Analytics
+ga_track_id: 'G-0ZG1PX570Z'
+# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: blog.cyyb.tk
+
+## 标签设置
+# 是否使用首页标签
+featured-tags: true
+# 相同标签数量大于这个数，才会出现在首页
+featured-condition-size: 0
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+## 友情链接
+friends: [
+    {
+        title: "Apple",
+        href: "https://www.apple.com.cn"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/cn"
+    },{
+        title: "",
+        href: ""
+    },{
+        title: "",
+        href: ""
+    }
+]
