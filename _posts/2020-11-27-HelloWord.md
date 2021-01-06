@@ -15,3 +15,4 @@ My First Blog!
 
 # Some Resources
 1. <a href="https://mu.cyyb.tk" target="_blank">音乐解锁1</a>，<a href="/music-unlock/" target="_blank">音乐解锁2</a>
+2. <a href="https://pdf.cyyb.tk/V2.6.347-Dist/web/" target="_blank">PDF 阅读器 1</a>，<a href="https://pdf.ctest.cf/V2.6.347-Dist/web/" target="_blank">PDF 阅读器 2</a>
